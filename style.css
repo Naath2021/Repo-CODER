@@ -1,0 +1,707 @@
+ *{margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* INDEX */
+
+.cajalogo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: 100vh;
+    width: auto;
+}
+
+header .iconohome{
+    width: 35vh;
+    height: auto;
+    padding-bottom: 5h;
+}
+
+
+header nav ul li {
+    display: inline;
+    font-size: 4vh;
+    font-weight: 500;
+    padding-top: 5vh;
+    margin: 1vh;
+    font-weight: 500;
+    font-size: 2vw;
+}
+
+header h1.tituloindex{
+    font-size: 4vw;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    color: rgb(110, 24, 23);
+    font-weight: 500;
+}
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+
+.foto1 {
+    width: 45vw;
+    height: auto;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.foto2{
+    width: 45vw;
+    height: auto;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+.foto3{
+    width: 45vw;
+    height: auto;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+main h2.texto1index {
+    font-size: 3vh;
+    font-weight: 500;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    text-align: center;
+    background-color: rgba(170, 202, 99, 0.5);
+    width: 80vw;
+    color: rgb(77, 11, 28);
+}
+h2.texto2index{
+    font-size: 3vh;
+    font-weight: 500;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    text-align: center;
+    background-color: rgba(170, 202, 99, 0.5);
+    width: 80vw;
+    color: rgb(77, 11, 28);
+}
+
+h2.texto3index{
+    font-size: 3vh;
+    font-weight: 500;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    text-align: center;
+    background-color: rgba(170, 202, 99, 0.5);
+    width: 80vw;
+    color: rgb(77, 11, 28);
+}
+footer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    padding-top: 3vh;
+}
+
+footer div a img{
+    width: 10vw;
+    height: auto;
+}
+
+.bodyindex{
+    background-image: url(./images/playa1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+
+
+/* ACERCA */
+ 
+.bodyacerca{
+    background-image: url(./images/playa3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+header h1.tituloacerca{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    font-size: 12vh;
+    font-weight: 600;
+    padding-top: 10vh;
+    padding-bottom: 6vh;
+    color: rgb(105, 48, 48);
+}
+
+h2.textoacerca{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    font-size: 5vh;
+    font-weight: 600;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    padding-top: 6vh;
+    padding-bottom: 10vh;
+    text-align: center;
+    width: 90vw;
+    height: auto;
+    color: rgb(112, 32, 32);
+}
+
+main div iframe.videomoya{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    height: 90vh;
+    width: 70vw;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+}
+
+
+ /* COMBINACIONES */
+
+.bodycomb{
+    background-image: url(./images/flores1.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header.headercomb{
+    height: 100vh;
+    width: auto;
+}
+header h1.titulocomb{
+    font-size: 4vw;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    color: rgb(110, 24, 23);
+}
+
+div.combinaciones{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    padding: 6vw;
+}
+
+div img.saborcayena{
+    width: 17vw;
+    height: auto;
+}
+div img.sabormoya{
+    width: 17vw;
+    height: auto;
+}
+
+div img.saborbayana{
+    width: 17vw;
+    height: auto;
+}
+
+div h2.titucaye{
+    font-size: xxx-large;
+    color:rgb(182, 230, 148);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+div h2.titumoya{
+    font-size: xxx-large;
+    color: rgb(182, 230, 148);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+div h2.titubaya{
+    font-size: xxx-large;
+    color: rgb(182, 230, 148);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+div h3.textocomb{
+    font-weight: bold;
+    color: rgb(224, 136, 177);
+    background-color: rgba(224, 136, 177, 0.2);
+    font-weight: 500;
+    font-size: x-large;
+    width: 70vw;
+    height: auto;
+    padding: 5vh 2vw;
+}
+
+/* PEDIDOS */ 
+
+header.headerpedidos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: auto;
+}
+
+header h2.texthpedidos{
+    font-weight: 600;
+    font-size: xx-large;
+    color: rgb(105, 48, 48);
+    padding-top: 15vh;
+}
+
+div.pedidos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.textopedidos{
+    font-size: x-large;
+    font-weight: 500;
+    padding: 5vw 6vw;
+    color: rgb(105, 48, 48);
+}
+
+.bodypedidos{
+    background-image: url(./images/memoria2f.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+div fieldset legend{
+    color: black;
+    font-weight: 500;
+    font-size: 5vh;
+}
+
+.formpedidos{
+    font-size: 5vh;
+    font-weight: 500;
+    /* color: rgb(218, 166, 70); */
+    color: black;
+    border: 2px solid black;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    background-image: linear-gradient(to left, rgba(14, 71, 14, 0.7), rgba(187, 187, 32, 0.6));
+    width: 60vw;
+    height: auto;
+    padding: 2vh;
+    margin-bottom: 25vh;
+}
+
+.formulario{
+    color: rgb(218, 166, 70);
+    font-weight: 500;
+    font-size: 5vh;
+}
+
+input{
+    font-size: large;
+    background-color: rgb(197, 174, 130);
+    color: black;
+    width: 14vw;
+    margin-bottom: 2vh;
+}
+
+
+/* CONTACTO */
+
+.headerhcont{
+    height: 20vh;
+    padding: 20vh 15vw;
+    width: auto;
+    font-weight: 500;
+    font-size: 7vh;
+    color: rgb(202, 228, 183);
+}
+
+.bodycontacto{
+    background-image: url(./images/reserva4.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+fieldset.formcontacto{
+    display: flex;
+    flex-flow: column wrap;
+    justify-items: center;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: center;
+    font-size: x-large;
+    color: black;
+    border: 5px solid rgb(63, 20, 20);
+    /* background-color: rgba(76, 92, 66, 0.7); */
+    background-image: linear-gradient(to right, rgba(139, 58, 92, 0.7), rgba(17, 85, 17, 0.7));
+    margin: 10vh 10vw;
+    padding: 2vh 3vw;
+    margin-bottom: 25vh;
+}
+
+fieldset legend{
+    font-weight: 600;
+    font-size: 2rem;
+    color: rgb(202, 228, 183);
+}
+
+fieldset.formcontacto input{
+    background-color: rgba(202, 228, 183, 0.5);
+}
+
+
+
+/* ***************************************************************** */
+
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 768px){
+    *{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        list-style: none;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    /* HTML INDEX */
+
+    .bodyindex{
+        background-image: url(./images/playa1.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+    }
+
+    header .iconohome{
+        width: 30vh;
+        height: auto;
+        padding-bottom:5vh;
+    }
+
+    header nav ul li {
+        display: inline;
+        font-size: 4vh;
+        margin: 1vh;
+    }
+
+    header h1.tituloindex{
+        font-size: 5vw;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        color: rgb(110, 24, 23);
+    }
+    
+    .foto1 {
+        width: 40vw;
+        height: auto;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+    }
+    
+    .foto2{
+        width: 45vw;
+        height: auto;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+    }
+    .foto3{
+        width: 40vw;
+        height: auto;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        margin-bottom: 18vh;
+    }
+    
+    main h2.texto1index {
+        font-size: 3vh;
+        padding-top: 3vw;
+        padding-bottom: 3vw;
+        text-align: center;
+        background-color: rgba(192, 202, 99, 0.8);
+        color: rgb(77, 11, 28);
+        width: 100vw;
+        height: auto;
+    }
+    h2.texto2index{
+        font-size: 3vh;
+        padding-top: 3vw;
+        padding-bottom: 3vw;
+        text-align: center;
+        background-color: rgba(192, 202, 99, 0.7);
+        color: rgb(77, 11, 28);
+        width: 100vw;
+        height: auto;
+    }
+    
+    h2.texto3index{
+        font-size: 3vh;
+        padding-top: 3vw;
+        padding-bottom: 3vw;
+        text-align: center;
+        background-color: rgba(192, 202, 99, 0.7);
+        color: rgb(77, 11, 28);
+        width: 100vw;
+        height: auto;
+    }
+    footer{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-content: center;
+        padding-top: 5vh;
+    }
+    
+    footer div a img{
+        width: 15vw;
+        height: auto;
+    }
+    
+    /* ACERCA */ 
+
+    header h1.tituloacerca{
+        font-size: 8vh;
+        font-weight: 600;
+        padding-top: 10vh;
+        color: rgb(105, 48, 48);
+    }
+    
+    .videomoya{
+        padding-top: 5vh;
+        padding-bottom: 10vh;
+    }
+    
+    h2.textoacerca{
+        font-size: 3vh;
+        font-weight: 600;
+        padding-left: 6vw;
+        padding-right: 6vw;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        width: 100vw;
+        height: auto;
+        color: rgb(112, 32, 32);
+        margin-bottom: 15vh;
+    }
+    
+    main div iframe.videomoya{
+        width: auto;
+        height: auto;
+    }
+    
+    
+     /* COMBINACIONES */
+    
+    header h1.titulocomb{
+        font-size: 5vw;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        color: rgb(110, 24, 23);
+        font-weight: 500;
+    }
+    .bodycomb{
+        background-image: url(./images/flores1.JPG);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    header.headercomb{
+        height: 100vh;
+        width: auto;
+    }
+    
+    div img.saborcayena{
+        width: 15vw;
+        height: auto;
+    }
+    div img.sabormoya{
+        width: 15vw;
+        height: auto;
+        padding-top: 15vh;
+    }
+    
+    div img.saborbayana{
+        width: 15vw;
+        height: auto;
+        padding-top: 15vh;
+    }
+    
+    div h2.titucaye{
+        font-size: large;
+        color:rgb(182, 230, 148);
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    }
+    
+    div h2.titumoya{
+        font-size: large;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    }
+    
+    div h2.titubaya{
+        font-size: large;
+        color:rgb(182, 230, 148);
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    }
+
+    div h3.textocomb{
+        font-weight: bold;
+        color: rgb(41, 18, 29);
+        background-color: rgba(165, 96, 128, 0.5);
+        font-size: medium;
+        width: 100vw;
+        height: auto;
+        padding: 5vh 5vw;
+    }
+    
+    /* PEDIDOS */ 
+
+    header.headerpedidos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+        width: auto;
+    }
+
+    header h2.texthpedidos{
+        font-weight: 600;
+        font-size: large;
+        color: rgb(105, 48, 48);
+        padding-top: 15vh;
+    }
+
+    div.pedidos{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-items: center;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    .textopedidos{
+        font-size: medium;
+        font-weight: 500;
+        padding: 5vw 6vw;
+        color: rgb(105, 48, 48);
+    }
+
+    .bodypedidos{
+        background-image: url(./images/memoria2f.jpg);
+        background-repeat: no-repeat; 
+        background-size: cover;
+    }
+
+    div fieldset legend{
+        color: rgb(197, 174, 130);;
+        font-weight: 500;
+        font-size: 5vh;
+    }
+
+    .formpedidos{
+        font-size: 4vh;
+        font-weight: 500;
+        color: rgb(197, 174, 130);
+        border: 2px solid black;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 60vw;
+        margin-bottom: 25vh;
+    }
+
+    .formulario{
+        color: rgb(0, 0, 0);
+        font-weight: 600;
+        font-size: 3vh;
+    }
+
+    input{
+        font-size: large;
+        background-color: rgb(197, 174, 130);
+        color: black;
+        width: 14vw;
+        margin-bottom: 2vh;
+    }
+
+
+    /* CONTACTO */
+
+    .headerhcont{
+        height: 20vh;
+        padding: 6vh 4vw;
+        width: auto;
+        font-weight: 500;
+        font-size: 4vh;
+        color: rgb(202, 228, 183);
+    }
+
+    .bodycontacto{
+        background-image: url(./images/reserva4.JPG);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    fieldset.formcontacto{
+        font-size: 4vh;
+        color: black;
+        border: 2px solid rgb(63, 20, 20);
+        background-color: rgba(98, 138, 73, 0.4);
+        margin: 10vh 10vw;
+        padding: 2vh 3vw;
+        margin-bottom: 25vh
+    }
+
+    fieldset legend{
+        font-size: 1.5rem;
+        color: rgb(202, 228, 183);
+    }
+
+    fieldset.formcontacto input{
+        background-color: rgba(82, 153, 32, 0.7);
+    }
+}
