@@ -5,3 +5,10 @@ PARA TEXTO 1 INDEX:
 *MOYA: rgb(217, 181, 211);
 *BAYANA Y LOGO: rgb(202, 228, 183);
 *TIPOGRAFÍA: rgb(205, 33, 53); | rgb(155, 28, 36);
+
+
+
+- Esta es su hermosa flor: De ella nos inspiramos para crear nuestro logo.
+- Árbol platanero: La Musa abunda en zonas cálidas y húmedas, como Venezuela, Colombia, Puerto Rico, etc.
+- ¿De donde vienen los nombres?: Todos están inspirados en playas, islas y vegetación en Venezuela, nuestro país.
+¿Alguna vez escuchaste sobre la "Musa x paradisiaca"? Es el nombre científico de la planta del banano, también conocida como "platanero", un alimento sumamente popular en la gastronomía caribeña.
