@@ -3,3 +3,631 @@
 *MOYA: rgb(217, 181, 211);
 *BAYANA Y LOGO: rgb(202, 228, 183);
 *TIPOGRAFÍA: rgb(205, 33, 53); | rgb(155, 28, 36);
+
+
+
+
+ *{margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* FOOTER */ 
+
+div.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+span.text-muted{
+    color: black;
+}
+
+p.text-muted{
+    color: black;
+}
+
+
+/* HEADER */ 
+
+.cajalogo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    background-image: url(/Musa-L/images/hojas4.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header .iconohome{
+    margin-top: 7vh;
+    width: 12vw;
+    height: auto;
+}
+
+
+header nav ul li{
+    display: inline;
+    font-size: 3vh;
+    text-align: center;
+    margin: 0.6vh;
+    padding: 0.8vh;
+}
+
+header nav ul li:hover{
+    background-color: rgba(148, 147, 135, 0.2);
+}
+
+/* INDEX */
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+
+main img {
+    width: 70vw;
+    height: auto;
+    padding-top: 20vh;
+    padding-bottom: 10vh;
+}
+
+
+main h2.textoindex{
+    font-size: 5vh;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    margin-top: 4vh;
+    text-align: center;
+    color: rgb(77, 11, 28);
+}
+
+.bodyindex{
+    background-image: url(./images/playa1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+/* ACERCA */
+ 
+body.bodyacerca{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-image: url(./images/palma.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+} 
+
+header h1.tituloacerca{
+    font-size: 7vh;
+    padding-top: 10vh;
+    padding-bottom: 6vh;
+    color: rgb(105, 48, 48);
+}
+
+main h2.acerca{
+    font-size: 5vh;
+    text-align: center;
+    width: 80vw;
+    height: auto;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+    color: rgb(77, 11, 28);
+}
+
+main h2.textoacerca{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+main div h3.textoacerca{
+    font-size: 4vh;
+    width: 50vw;
+    height: fit-content;
+    text-align: center;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    padding-top: 7vh;
+    width: 70vw;
+    color: rgb(56, 12, 12);
+}
+
+main div iframe.videomoya{
+    padding-top: 30vh;
+    padding-bottom: 10vh;
+    width: 50vw;
+    height: 90vh;
+}
+
+main div.divacerca{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around; 
+    justify-items: center;
+    height: auto;
+    width: 80vw;
+}
+
+main div img.imgacerca{
+    width: 20vw;
+    height: auto;
+}
+
+
+
+
+
+ /* COMBINACIONES */
+
+body.bodycomb{
+    background-image:url(/Musa-L/images/hojas4.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header h1.titulocomb{
+    font-size: 3.5vw;
+    padding-top: 10vh;
+    padding-bottom: 20vh;
+    color: rgb(110, 24, 23);
+    text-align: center;
+}
+
+div.combinaciones{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    padding: 6vw;
+}
+
+main div img{
+    width: 20vw;
+    height: auto;
+}
+
+main div h2.titucomb{
+    color:rgb(155, 28, 36);
+    padding-top: 3vh;
+    padding-bottom: 10vh;
+    font-size: 6vh;
+}
+
+main div h3.textocayena{
+    font-size: 3vh;
+    background-color: rgba(250, 217, 93, 0.5);
+    width: 80vw;
+    height: auto;
+    padding: 2vh 10vw;
+    text-align: center;
+}
+main div h3.textomoya{
+    font-size: 3vh;
+    background-color: rgba(217, 181, 211, 0.6);
+    width: 80vw;
+    height: auto;
+    padding: 2vh 10vw;
+    text-align: center;
+}
+main div h3.textobayana{
+    font-size: 3vh;
+    background-color: rgba(202, 228, 183, 0.9);
+    width: 80vw;
+    height: auto;
+    padding: 2vh 10vw;
+    text-align: center;
+}
+
+
+
+
+
+/* PEDIDOS */ 
+
+
+header.headerpedidos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    height: 70vh;
+    width: auto;
+}
+
+header h2.texthpedidos{
+    font-size: 4.8vh;
+    color: rgb(105, 48, 48);
+    padding-top: 10vh;
+    text-align: center;
+    width: 80vw;
+}
+
+div.pedidos{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.textopedidos{
+    font-size: 3.5vh;
+    padding: 5vw 6vw;
+    color: rgb(105, 48, 48);
+    width: 75vw;
+    height: auto;
+    text-align: center;
+}
+
+.bodypedidos{
+    background-image: url(./images/memoria2f.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+div fieldset legend{
+    color: black;
+    font-size: 5vh;
+}
+
+body fieldset.formpedidos{
+    font-size: 3vh;
+    border: 2px solid black;
+    background-image: linear-gradient(to left, rgba(32, 118, 133, 0.4), rgba(123, 202, 207, 0.4));
+    width: 50vw;
+    height: auto;
+    padding: 2vh;
+    margin-bottom: 25vh;
+    animation-name: pedidos;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+}
+
+main div a.formulario{
+    text-decoration: none;
+    color: black;
+}
+
+main div a.formulario:hover{
+    color: rgb(58, 19, 19);
+}
+
+
+@keyframes pedidos {
+    0%{ 
+        width: 40vw;
+        height: auto;
+    }
+
+    25%{
+        width: 50vw;
+        height: auto;
+    }
+    50%{
+        width: 60vw;
+        height: auto;
+    }
+    75%{
+        width: 50vw;
+        height: auto;
+    }
+    100%{
+        width: 40vw;
+        height: auto;
+    }
+}
+
+
+input{
+    background-color: rgba(155, 136, 100, 0.8);
+    color: black;
+    width: 14vw;
+    margin-bottom: 2vh;
+}
+
+input:hover{
+    background-color: rgba(129, 106, 62, 0.8);
+}
+
+
+/* CONTACTO */
+
+header h2.headerhcont{
+    font-size: 6vh;
+    padding-top: 10vh;
+    color: rgb(63, 20, 20);
+}
+body.bodycontacto{
+    background-image: url(/Musa-L/images/hojas1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+h3.textocontacto{
+    font-size: 4vh;
+    width: 70vw;
+    height: auto;
+    text-align: center;
+    padding: 10vh 5vw;
+}
+
+fieldset.formcontacto{
+    display: flex;
+    flex-flow: column wrap;
+    justify-items: center;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: center;
+    font-size: 3vh;
+    color: black;
+    border: 3px solid rgb(63, 20, 20);
+    background-image: linear-gradient(to right, rgba(88, 143, 160, 0.4), rgba(161, 168, 94, 0.4));
+    margin-bottom: 25vh;
+    width: 60vw;
+    height: auto;
+}
+
+main fieldset form label{
+    padding: 1vh
+}
+main fieldset div.checkcont{
+    padding-bottom: 3vh;
+}
+
+fieldset.formcontacto legend{
+    font-size: 4vh;
+    color: black;
+    text-align: center;
+    padding-bottom: 3vh;
+    padding-top: 3vh;
+}
+
+.submit{
+    margin-bottom: 2vh;
+}
+
+
+
+
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 768px){
+    *{  margin: 0;
+        padding: 0;}
+
+    header .iconohome{
+        width: 15vh;
+        height: auto;
+    }
+
+    header nav ul li{
+        font-size: 2vh;
+    }
+
+    header nav ul li:hover{
+        background-color: rgba(148, 147, 135, 0.2);
+    }
+
+        /* INDEX */ 
+
+    main h2.textoindex{
+        font-size: 3vh;
+        width: 90vw;
+        height: auto;
+    }
+
+        /* ACERCA */ 
+
+    header h1.tituloacerca{
+        font-size: 5vh;
+    }
+
+    main div iframe.videomoya{
+        width: 70vw;
+        height: 75vh;
+    }
+
+    main h2.acerca{
+        font-size: 3vw;
+        width: 90vw;
+        height: auto;
+    }
+
+    main div h3.textoacerca{
+        font-size: 3vw;
+        padding-top: 20vh;
+    }
+
+        /* COMBINACIONES */ 
+    
+    header h1.titulocomb{
+        font-size: 6vw;
+        padding-top: 5vh;
+    }
+
+    main div img{
+        width: 30vw;
+        height: auto;
+        padding-bottom: 0.6vh;
+    }
+
+    main div h2.titucomb{
+        font-size: 7vw;
+        width: 90vw;
+        height: auto;
+        text-align: center;
+    }
+
+    main div h3.textocayena{
+        width: 95vw;
+        height: auto;
+        font-size: 3vw; 
+    }   
+
+    main div h3.textomoya{
+        width: 95vw;
+        height: auto;
+        font-size: 3vw;
+    }
+
+    main div h3.textobayana{
+            width: 95vw;
+            height: auto;
+            font-size: 3vw;
+            padding-bottom: 8vh;
+    }
+
+        /* PEDIDOS */ 
+    
+    header h2.texthpedidos{
+        font-size: 3vh;
+        font-weight: 500;
+        width: 70vw;
+        height: auto;
+    }
+    
+    .textopedidos{
+        font-size: 4vw;
+        width: 95vw;
+        height: auto;
+        margin: 4vh 0vh;
+    }
+
+    div fieldset legend{
+        font-size: 3vh;
+    }
+
+    input{
+        width: 8vh;
+    }
+
+    body fieldset.formpedidos{
+        width: 80vw;
+        height: auto;
+        font-size: 2vh;
+        margin-top: 8vh;
+        animation-name: pedidos;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        animation-iteration-count: 2;
+    }
+
+    @keyframes pedidos {
+        0%{ 
+            width: 80vw;
+            height: auto;
+        }
+    
+        25%{
+            width: 70vw;
+            height: auto;
+        }
+        50%{
+            width: 60vw;
+            height: auto;
+        }
+        75%{
+            width: 70vw;
+            height: auto;
+        }
+        100%{
+            width: 80vw;
+            height: auto;
+        }
+    }
+
+
+            /* CONTACTO */ 
+    
+    header h2.headerhcont{
+        font-size: 5.8vw;
+    }
+
+    h3.textocontacto{
+        font-size: 3.5vw;
+        color: rgb(223, 198, 198);
+        width: 90vw;
+        height: auto;
+        background-color: rgba(66, 71, 53, 0.8);
+        padding: 3vh 2vw;
+        margin: 5vh 0vw;
+    }
+
+    fieldset.formcontacto{
+        font-size: 2vh;
+        width: 90vw;
+        height: auto;
+        background-color: rgba(155, 175, 108, 0.5);
+    }
+
+    fieldset.formcontacto legend{
+        font-size: 3vh;
+    }
+
+    .submit{
+        width: 25vw;
+        height: auto;
+        margin-bottom: 2vh;
+    }
+
+}

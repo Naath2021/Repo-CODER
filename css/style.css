@@ -1,0 +1,316 @@
+/* FOOTER */
+footer div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  footer div span.text-muted {
+    color: black; }
+  footer div p.text-muted {
+    color: black; }
+
+header {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(/images/hojas4.jpeg);
+  width: 100vw;
+  height: 100vh; }
+  header p {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    text-align: center; }
+  header img {
+    margin-top: 7vh;
+    width: 12vw;
+    height: auto; }
+  header nav {
+    font-size: 2vw;
+    text-align: center;
+    text-decoration: none; }
+    header nav ul li {
+      display: inline;
+      font-size: 2vw; }
+      header nav ul li:hover {
+        background-color: #cae4b7;
+        transition-duration: 600ms;
+        padding: 0.6vw; }
+
+.bodyindex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(/images/playa1.jpg); }
+  .bodyindex main img {
+    width: 70vw;
+    height: auto;
+    padding-top: 20vh;
+    padding-bottom: 10vh; }
+  .bodyindex main h2 {
+    font-size: 2vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    color: #4d0b1c; }
+
+.bodyacerca {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(/images/palma.jpg); }
+  .bodyacerca h1 {
+    font-size: 4vw;
+    color: #4d0b1c;
+    padding-top: 10vh;
+    padding-bottom: 6vh; }
+  .bodyacerca main iframe {
+    padding-top: 30vh;
+    padding-bottom: 10vh;
+    width: 50vw;
+    height: 90vh; }
+  .bodyacerca main h2 {
+    font-size: 2vw;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+    color: #4d0b1c;
+    width: 80vw;
+    height: auto;
+    margin: 8vh 0vh; }
+  .bodyacerca main div {
+    display: flex;
+    flex-direction: row;
+    padding-top: 6vh;
+    padding-bottom: 6vh; }
+    .bodyacerca main div h3 {
+      font-size: 1vw;
+      width: 50vw;
+      height: auto;
+      padding-right: 6vh;
+      padding-left: 6vh;
+      padding-top: 8vh;
+      color: #4d0b1c; }
+    .bodyacerca main div img {
+      width: 20vw;
+      height: auto; }
+
+.bodycomb {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(/images/hojas4.jpeg); }
+  .bodycomb h1 {
+    font-size: 4vw;
+    padding-top: 10vh;
+    padding-bottom: 20vh;
+    color: #4d0b1c; }
+  .bodycomb main div {
+    padding: 8vh;
+    height: 100vh; }
+    .bodycomb main div img {
+      width: 20vw;
+      height: auto;
+      padding-top: 6vh; }
+    .bodycomb main div h2 {
+      color: #9b1c24;
+      padding-top: 3vh;
+      padding-bottom: 10vh;
+      font-size: 6vh; }
+    .bodycomb main div h3 {
+      font-size: 2vw;
+      width: 80vw;
+      height: auto;
+      padding: 1vh 10vw; }
+    .bodycomb main div .textomoya {
+      background-color: rgba(217, 181, 211, 0.6); }
+    .bodycomb main div .textocayena {
+      background-color: rgba(250, 217, 93, 0.5); }
+    .bodycomb main div .textobayana {
+      background-color: rgba(202, 228, 183, 0.9); }
+
+.bodypedidos {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(/images/memoria2f.jpg); }
+  .bodypedidos h1 {
+    font-size: 3vw;
+    color: #4d0b1c;
+    padding-top: 10vh;
+    width: 80vw; }
+  .bodypedidos main div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    text-align: center; }
+    .bodypedidos main div h2 {
+      font-size: 2vw;
+      padding: 5vw 6vw;
+      width: 75vw;
+      height: auto; }
+    .bodypedidos main div fieldset {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      font-size: 2vw;
+      border: 2px solid black;
+      background-image: linear-gradient(to left, rgba(32, 118, 133, 0.4), rgba(123, 202, 207, 0.4));
+      width: 50vw;
+      height: auto;
+      padding: 3vh;
+      margin-bottom: 20vh;
+      animation-name: pedidos;
+      animation-timing-function: linear;
+      animation-duration: 2s;
+      animation-iteration-count: 2; }
+      .bodypedidos main div fieldset legend {
+        color: black;
+        font-size: 3vw; }
+      .bodypedidos main div fieldset form {
+        font-size: 2vw;
+        color: black; }
+      .bodypedidos main div fieldset div a {
+        text-decoration: none;
+        color: black; }
+        .bodypedidos main div fieldset div a:hover {
+          color: #4d0b1c; }
+      .bodypedidos main div fieldset input {
+        text-decoration: none;
+        background-color: rgba(155, 136, 100, 0.8);
+        color: black;
+        width: 14vw;
+        margin-bottom: 2vh; }
+        .bodypedidos main div fieldset input:hover {
+          background-color: rgba(129, 106, 62, 0.8);
+          transition-duration: 600ms;
+          padding-left: 1vw;
+          padding-right: 1vw; }
+
+@keyframes pedidos {
+  0% {
+    width: 40vw;
+    height: auto; }
+  25% {
+    width: 50vw;
+    height: auto; }
+  50% {
+    width: 60vw;
+    height: auto; }
+  75% {
+    width: 50vw;
+    height: auto; }
+  100% {
+    width: 40vw;
+    height: auto; } }
+
+.bodycontacto {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(/images/hojas1.jpeg); }
+  .bodycontacto h1 {
+    font-size: 4vw;
+    padding-top: 10vh;
+    color: #4d0b1c; }
+  .bodycontacto main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    text-align: center; }
+    .bodycontacto main h2 {
+      font-size: 2vw;
+      width: 80vw;
+      height: auto;
+      padding: 10vh 5vh; }
+    .bodycontacto main fieldset {
+      font-size: 2vw;
+      color: black;
+      border: 3px solid black;
+      background-image: linear-gradient(to right, rgba(88, 143, 160, 0.4), rgba(161, 168, 94, 0.4));
+      margin-bottom: 20vh;
+      width: 60vw;
+      height: auto; }
+    .bodycontacto main legend {
+      font-size: 2vw; }
+    .bodycontacto main form label {
+      padding: 1vh;
+      color: black; }
+    .bodycontacto main form input {
+      text-decoration: none;
+      background-color: rgba(155, 136, 100, 0.8);
+      color: black;
+      width: 14vw;
+      margin-bottom: 2vh; }
+      .bodycontacto main form input:hover {
+        background-color: rgba(129, 106, 62, 0.8);
+        transition-duration: 600ms;
+        padding-left: 1vw;
+        padding-right: 1vw; }
+    .bodycontacto main .submit {
+      margin-bottom: 2vh;
+      text-decoration: none;
+      background-color: rgba(155, 136, 100, 0.8);
+      color: black;
+      width: 14vw;
+      margin-bottom: 2vh;
+      margin-top: 2vh; }
+      .bodycontacto main .submit:hover {
+        background-color: rgba(129, 106, 62, 0.8);
+        transition-duration: 600ms;
+        padding-left: 1vw;
+        padding-right: 1vw; }
