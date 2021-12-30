@@ -1,0 +1,327 @@
+@import "./styles/colors", "./styles/sizes", "./styles/mixin";
+
+
+
+/* FOOTER */ 
+
+footer{
+    div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        span.text-muted{
+            color: map-get($map: $color, $key: color1);
+            }
+        p.text-muted{
+            color: map-get($map: $color, $key: color1);
+            }
+    }
+}
+
+header{
+    @include flex;
+    @include background;
+    background-image: url(/images/hojas4.jpeg);
+    width: $width100;
+    height: $height100;
+    p{
+        @include flex;
+    }
+    img{
+        margin-top: 7vh;
+        width: ($width10 + 2vw);
+        height: auto;  
+    }
+    nav{
+        font-size: $font-size;
+        text-align: center;
+        text-decoration: none;
+        ul{
+            li{
+                display: inline;
+                font-size: ($font-size);
+                &:hover{
+                    background-color: map-get($map: $color, $key: colorlogo);
+                    transition-duration: 600ms;
+                    padding: 0.6vw;
+                }
+            }
+        }
+    }
+}
+
+.bodyindex{
+    @include flex;
+    @include background;
+    background-image: url(/images/playa1.jpg);
+    main{
+        img{
+            width: ($width80 - 10vw);
+            height: $heightauto;
+            padding-top: 20vh;
+            padding-bottom: 10vh;
+        }
+        h2{
+            font-size: $font-size;
+            padding-left: 15vw;
+            padding-right: 15vw;
+            padding-top: $font-size;
+            padding-bottom: $font-size;
+            color: map-get($map: $color, $key: font-color);
+        }
+    }
+}
+
+.bodyacerca{
+    @include flex;
+    @include background;
+    background-image: url(/images/palma.jpg);
+    h1{
+        font-size: ($font-size + 2vw);
+        color: map-get($map: $color, $key: font-color);
+        padding-top: $size2;
+        padding-bottom: $size3;
+    }
+    main{
+        iframe{
+            padding-top: 30vh;
+            padding-bottom: 10vh;
+            width: $width50;
+            height: ($height100 - 10vh);
+            
+        }
+        h2{
+            font-size: $font-size;
+            margin-top: $size1;
+            margin-bottom: $size1;
+            color: map-get($map: $color, $key: font-color);
+            width: $width80;
+            height: $heightauto;
+            margin: $size1 0vh;
+        }
+        div{
+            display: flex;
+            flex-direction: row;
+            padding-top: $size3;
+            padding-bottom: $size3;
+            h3{
+                font-size: ($font-size - 1vw);
+                width: $width50;
+                height: $heightauto;
+                padding-right: 6vh;
+                padding-left: 6vh;
+                padding-top: $size1;
+                color: map-get($map: $color, $key: font-color);
+            }
+            img{
+                width: ($width50 - 30vw);
+                height: $heightauto;
+            }
+        }
+    }
+}
+
+.bodycomb{
+    @include flex;
+    @include background;
+    background-image:url(/images/hojas4.jpeg);
+    h1{
+        font-size: ($font-size + 2vw);
+        padding-top: $size2;
+        padding-bottom: ($size2 + $size2);
+        color: map-get($map: $color, $key: font-color);
+    }
+    main{
+        div{
+            padding: $size1;
+            height: $height100;
+            img{
+                width: ($width10 *2);
+                height: $heightauto;
+                padding-top: $size3;
+            }
+            h2{
+                color: map-get($map: $color, $key: tipografia2 );
+                padding-top: $height3;
+                padding-bottom: $height10;
+                font-size: $size3;
+            }
+            h3{
+               font-size: $font-size; 
+               width: $width80;
+               height: $heightauto;
+               padding: 1vh $width10;
+            }
+            .textomoya{
+                background-color: rgba(217, 181, 211, 0.6);;
+            }
+            .textocayena{
+                background-color: rgba(250, 217, 93, 0.5);
+            }
+            .textobayana{
+             background-color: rgba(202, 228, 183, 0.9);
+            }
+        }
+    }
+}
+
+.bodypedidos{
+    @include flex;
+    @include background;
+    background-image:url(/images/memoria2f.jpg);
+    h1{
+        font-size: ($font-size + 1vw);
+        color: map-get($map: $color, $key: font-color);
+        padding-top: $size2;
+        width: $width80;
+    }
+    main{
+        div{
+            @include flex;
+            h2{
+                font-size: $font-size;
+                padding: 5vw 6vw;
+                width: ($width80 - 5vw);
+                height: $heightauto;
+            }
+            fieldset{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: flex-start;
+                font-size: $font-size;
+                border: 2px solid map-get($map: $color, $key: color1);
+                background-image: linear-gradient(to left, rgba(32, 118, 133, 0.4), rgba(123, 202, 207, 0.4));
+                width: $width50;
+                height: $heightauto;
+                padding: $height3;
+                margin-bottom: ($size2 *2);
+                animation-name: pedidos;
+                animation-timing-function: linear;
+                animation-duration: 2s;
+                animation-iteration-count: 2;
+                legend{
+                    color: map-get($map: $color, $key: color1);
+                    font-size: ($font-size + 1vw);
+                }
+                form{
+                   font-size: $font-size; 
+                   color: map-get($map: $color, $key: color1);
+    
+                }
+                div{
+                    a{
+                        text-decoration: none;
+                        color: map-get($map: $color, $key: color1); 
+                        &:hover{
+                        color: map-get($map: $color, $key: font-color);
+                        }
+                    }
+                }
+                input{
+                    text-decoration: none;
+                    background-color: rgba(155, 136, 100, 0.8);
+                    color: map-get($map: $color, $key: color1);
+                    width: ($width10 + 4vw);
+                    margin-bottom: 2vh;
+                    &:hover{
+                        background-color: rgba(129, 106, 62, 0.8);
+                        transition-duration: 600ms;
+                        padding-left: 1vw;
+                        padding-right: 1vw;
+                    }
+                }
+            }
+            @keyframes pedidos {
+                0%{ 
+                    width: 40vw;
+                    height: auto;
+                }
+            
+                25%{
+                    width: 50vw;
+                    height: auto;
+                }
+                50%{
+                    width: 60vw;
+                    height: auto;
+                }
+                75%{
+                    width: 50vw;
+                    height: auto;
+                }
+                100%{
+                    width: 40vw;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
+
+.bodycontacto{
+    @include flex;
+    @include background;
+    background-image:url(/images/hojas1.jpeg);
+    h1{
+        font-size: ($font-size + 2vw);
+        padding-top: $height10;
+        color: map-get($map: $color, $key: font-color);
+    }
+    main{
+        @include flex;
+        h2{
+            font-size: $font-size;
+            width: $width80;
+            height: $heightauto;
+            padding: $height10 5vh;
+        }
+        fieldset{
+            font-size: $font-size;
+            color: map-get($map: $color, $key: color1);
+            border: 3px solid map-get($map: $color, $key: color1);
+            background-image: linear-gradient(to right, rgba(88, 143, 160, 0.4), rgba(161, 168, 94, 0.4));
+            margin-bottom: ($size2 *2);
+            width: ($width50 + 10vw);
+            height: $heightauto;
+        }
+        legend{
+            font-size: $font-size;
+        }
+        form{
+            label{
+                padding: 1vh;
+                color: map-get($map: $color, $key: color1);
+            }
+            input{
+                text-decoration: none;
+                background-color: rgba(155, 136, 100, 0.8);
+                color: map-get($map: $color, $key: color1);
+                width: ($width10 + 4vw);
+                margin-bottom: 2vh;
+                &:hover{
+                    background-color: rgba(129, 106, 62, 0.8);
+                    transition-duration: 600ms;
+                    padding-left: 1vw;
+                    padding-right: 1vw;
+                }
+            }
+        }
+    .submit{
+        margin-bottom: 2vh;
+        text-decoration: none;
+        background-color: rgba(155, 136, 100, 0.8);
+            color: map-get($map: $color, $key: color1);
+        width: ($width10 + 4vw);
+        margin-bottom: 2vh;
+        margin-top: 2vh;
+            &:hover{
+                background-color: rgba(129, 106, 62, 0.8);
+                transition-duration: 600ms;
+                padding-left: 1vw;
+                padding-right: 1vw;
+            }
+        }
+    }
+}
+
