@@ -4,9 +4,9 @@ footer div {
   flex-direction: row;
   justify-content: space-between; }
   footer div span.text-muted {
-    color: black; }
+    color: "rgb(0, 0, 0)"; }
   footer div p.text-muted {
-    color: black; }
+    color: "rgb(0, 0, 0)"; }
 
 header {
   display: flex;
@@ -43,7 +43,7 @@ header {
       display: inline;
       font-size: 2vw; }
       header nav ul li:hover {
-        background-color: #cae4b7;
+        background-color: "rgb(202, 228, 183)";
         transition-duration: 600ms;
         padding: 0.6vw; }
 
@@ -70,7 +70,7 @@ header {
     padding-right: 15vw;
     padding-top: 2vw;
     padding-bottom: 2vw;
-    color: #4d0b1c; }
+    color: "rgb(77, 11, 28)"; }
 
 .bodyacerca {
   display: flex;
@@ -86,7 +86,7 @@ header {
   background-image: url(/images/palma.jpg); }
   .bodyacerca h1 {
     font-size: 4vw;
-    color: #4d0b1c;
+    color: "rgb(77, 11, 28)";
     padding-top: 10vh;
     padding-bottom: 6vh; }
   .bodyacerca main iframe {
@@ -98,7 +98,7 @@ header {
     font-size: 2vw;
     margin-top: 8vh;
     margin-bottom: 8vh;
-    color: #4d0b1c;
+    color: "rgb(77, 11, 28)";
     width: 80vw;
     height: auto;
     margin: 8vh 0vh; }
@@ -114,7 +114,7 @@ header {
       padding-right: 6vh;
       padding-left: 6vh;
       padding-top: 8vh;
-      color: #4d0b1c; }
+      color: "rgb(77, 11, 28)"; }
     .bodyacerca main div img {
       width: 20vw;
       height: auto; }
@@ -135,7 +135,7 @@ header {
     font-size: 4vw;
     padding-top: 10vh;
     padding-bottom: 20vh;
-    color: #4d0b1c; }
+    color: "rgb(77, 11, 28)"; }
   .bodycomb main div {
     padding: 8vh;
     height: 100vh; }
@@ -144,7 +144,7 @@ header {
       height: auto;
       padding-top: 6vh; }
     .bodycomb main div h2 {
-      color: #9b1c24;
+      color: "rgb(155, 28, 36)";
       padding-top: 3vh;
       padding-bottom: 10vh;
       font-size: 6vh; }
@@ -174,7 +174,7 @@ header {
   background-image: url(/images/memoria2f.jpg); }
   .bodypedidos h1 {
     font-size: 3vw;
-    color: #4d0b1c;
+    color: "rgb(77, 11, 28)";
     padding-top: 10vh;
     width: 80vw; }
   .bodypedidos main div {
@@ -197,7 +197,7 @@ header {
       align-items: flex-start;
       justify-content: flex-start;
       font-size: 2vw;
-      border: 2px solid black;
+      border: 2px solid "rgb(0, 0, 0)";
       background-image: linear-gradient(to left, rgba(32, 118, 133, 0.4), rgba(123, 202, 207, 0.4));
       width: 50vw;
       height: auto;
@@ -208,20 +208,20 @@ header {
       animation-duration: 2s;
       animation-iteration-count: 2; }
       .bodypedidos main div fieldset legend {
-        color: black;
+        color: "rgb(0, 0, 0)";
         font-size: 3vw; }
       .bodypedidos main div fieldset form {
         font-size: 2vw;
-        color: black; }
+        color: "rgb(0, 0, 0)"; }
       .bodypedidos main div fieldset div a {
         text-decoration: none;
-        color: black; }
+        color: "rgb(0, 0, 0)"; }
         .bodypedidos main div fieldset div a:hover {
-          color: #4d0b1c; }
+          color: "rgb(77, 11, 28)"; }
       .bodypedidos main div fieldset input {
         text-decoration: none;
         background-color: rgba(155, 136, 100, 0.8);
-        color: black;
+        color: "rgb(0, 0, 0)";
         width: 14vw;
         margin-bottom: 2vh; }
         .bodypedidos main div fieldset input:hover {
@@ -262,7 +262,7 @@ header {
   .bodycontacto h1 {
     font-size: 4vw;
     padding-top: 10vh;
-    color: #4d0b1c; }
+    color: "rgb(77, 11, 28)"; }
   .bodycontacto main {
     display: flex;
     flex-direction: column;
@@ -279,8 +279,8 @@ header {
       padding: 10vh 5vh; }
     .bodycontacto main fieldset {
       font-size: 2vw;
-      color: black;
-      border: 3px solid black;
+      color: "rgb(0, 0, 0)";
+      border: 3px solid "rgb(0, 0, 0)";
       background-image: linear-gradient(to right, rgba(88, 143, 160, 0.4), rgba(161, 168, 94, 0.4));
       margin-bottom: 20vh;
       width: 60vw;
@@ -289,11 +289,11 @@ header {
       font-size: 2vw; }
     .bodycontacto main form label {
       padding: 1vh;
-      color: black; }
+      color: "rgb(0, 0, 0)"; }
     .bodycontacto main form input {
       text-decoration: none;
       background-color: rgba(155, 136, 100, 0.8);
-      color: black;
+      color: "rgb(0, 0, 0)";
       width: 14vw;
       margin-bottom: 2vh; }
       .bodycontacto main form input:hover {
@@ -305,7 +305,7 @@ header {
       margin-bottom: 2vh;
       text-decoration: none;
       background-color: rgba(155, 136, 100, 0.8);
-      color: black;
+      color: "rgb(0, 0, 0)";
       width: 14vw;
       margin-bottom: 2vh;
       margin-top: 2vh; }

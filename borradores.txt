@@ -4,7 +4,7 @@
 *BAYANA Y LOGO: rgb(202, 228, 183);
 *TIPOGRAFÍA: rgb(205, 33, 53); | rgb(155, 28, 36);
 
-
+"Nuestra pasión por la excelencia nos condujo a materializar esta misión, siendo esta la parte fundamental que nos ha impulsado a seguir adelante. El equipo Musa batidos sabe que cada producto es importante, por lo que haremos de tu experiencia de compra lo más placentera posible. Echa un vistazo a nuestra tienda, consulta nuestras ofertas especiales y haznos saber tus dudas."
 
 
  *{margin: 0;
